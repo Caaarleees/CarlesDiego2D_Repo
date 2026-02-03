@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: 940750339a9b18744a3745ee98760f08
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7841504579841534846
+    second: Paralax_0
+  - first:
+      213: -4967477923955727904
+    second: Paralax_1
+  - first:
+      213: 3589778563881380473
+    second: Paralax_2
+  - first:
+      213: -8588122961202613285
+    second: Paralax_3
+  - first:
+      213: -4178753122019192054
+    second: Paralax_4
+  - first:
+      213: 4595283121171374278
+    second: Paralax_5
+  - first:
+      213: 6409754422160835445
+    second: Paralax_6
+  - first:
+      213: -4196261810062138659
+    second: Paralax_7
+  - first:
+      213: -5497074950738938562
+    second: Paralax_8
+  - first:
+      213: 6501695242746900089
+    second: Paralax_9
+  - first:
+      213: -8469251726659655495
+    second: Paralax_10
+  - first:
+      213: 5452264753586985616
+    second: Paralax_11
+  - first:
+      213: -2766095526539770680
+    second: Paralax_12
+  - first:
+      213: 7334377677530235595
+    second: Paralax_13
+  - first:
+      213: 8804522549922295647
+    second: Paralax_14
+  - first:
+      213: -5848581378154657327
+    second: Paralax_15
+  - first:
+      213: -419807504360485534
+    second: Paralax_16
+  - first:
+      213: -4393495723107313836
+    second: Paralax_17
+  - first:
+      213: -641022356725571616
+    second: Paralax_18
+  - first:
+      213: -6169371068709688673
+    second: Paralax_19
+  - first:
+      213: -6668256046572231190
+    second: Paralax_20
+  - first:
+      213: -2664291978582284382
+    second: Paralax_21
+  - first:
+      213: -6912309301794055228
+    second: Paralax_22
+  - first:
+      213: -6241016220793986197
+    second: Paralax_23
+  - first:
+      213: 5297518948993294426
+    second: Paralax_24
+  - first:
+      213: 7670439319934773059
+    second: Paralax_25
+  - first:
+      213: 1317798294453635210
+    second: Paralax_26
+  - first:
+      213: -5625258891379655967
+    second: Paralax_27
+  - first:
+      213: 8729521751858848149
+    second: Paralax_28
+  - first:
+      213: 6173153670685430770
+    second: Paralax_29
+  - first:
+      213: -3585802284897236193
+    second: Paralax_30
+  - first:
+      213: 7666744481971517479
+    second: Paralax_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Paralax_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 211
+        height: 1886
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7bad0a8ede92dc60800000000000000
+      internalID: 7841504579841534846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paralax_1
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 0
+        width: 212
+        height: 1882
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e12601a529ff0bb0800000000000000
+      internalID: -4967477923955727904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paralax_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1083
+        width: 138
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bedddf09bf57ad47ab02d194e0d4940
+      internalID: 3589778563881380473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 198bb62fd4ce36547aed92dde8d62191
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Paralax_0: 7841504579841534846
+      Paralax_1: -4967477923955727904
+      Paralax_10: -8469251726659655495
+      Paralax_11: 5452264753586985616
+      Paralax_12: -2766095526539770680
+      Paralax_13: 7334377677530235595
+      Paralax_14: 8804522549922295647
+      Paralax_15: -5848581378154657327
+      Paralax_16: -419807504360485534
+      Paralax_17: -4393495723107313836
+      Paralax_18: -641022356725571616
+      Paralax_19: -6169371068709688673
+      Paralax_2: 3589778563881380473
+      Paralax_20: -6668256046572231190
+      Paralax_21: -2664291978582284382
+      Paralax_22: -6912309301794055228
+      Paralax_23: -6241016220793986197
+      Paralax_24: 5297518948993294426
+      Paralax_25: 7670439319934773059
+      Paralax_26: 1317798294453635210
+      Paralax_27: -5625258891379655967
+      Paralax_28: 8729521751858848149
+      Paralax_29: 6173153670685430770
+      Paralax_3: -8588122961202613285
+      Paralax_30: -3585802284897236193
+      Paralax_31: 7666744481971517479
+      Paralax_32: 156140112
+      Paralax_4: -4178753122019192054
+      Paralax_5: 4595283121171374278
+      Paralax_6: 6409754422160835445
+      Paralax_7: -4196261810062138659
+      Paralax_8: -5497074950738938562
+      Paralax_9: 6501695242746900089
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
