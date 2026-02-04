@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HuesoRoto
   brokenSprite: {fileID: 532854001124784855, guid: 354aef3252666de41a928036dabcde0a, type: 3}
-  destroyTime: 2.5
+  destroyTime: 1
 --- !u!61 &2832787195504738564
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -141,7 +141,7 @@ BoxCollider2D:
   m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.41465464}
+  m_Offset: {x: 0.023670554, y: 0.027193442}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -151,7 +151,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 8.21875, y: 1.2472739}
+  m_Size: {x: 7.224595, y: 0.36357793}
   m_EdgeRadius: 0
 --- !u!251 &2020018372281374331
 PlatformEffector2D:
