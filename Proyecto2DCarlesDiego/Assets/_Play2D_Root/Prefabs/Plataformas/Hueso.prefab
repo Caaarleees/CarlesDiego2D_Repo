@@ -105,8 +105,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac6b9bdaa944f974dbf8eb9983e4c1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HuesoRoto
+  normalSprite: {fileID: 5503991915962570086, guid: ab95bb656a5e20a4ab79a3e28b23c38c, type: 3}
   brokenSprite: {fileID: 532854001124784855, guid: 354aef3252666de41a928036dabcde0a, type: 3}
-  destroyTime: 1
+  destroyTime: 0.5
+  respawnTime: 4
 --- !u!61 &2832787195504738564
 BoxCollider2D:
   m_ObjectHideFlags: 0

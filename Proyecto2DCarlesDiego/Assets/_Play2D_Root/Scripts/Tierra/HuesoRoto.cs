@@ -5,8 +5,11 @@ using UnityEngine;
 
 public class HuesoRoto : MonoBehaviour
 {
+    public Sprite normalSprite;      // Sprite del hueso normal
     public Sprite brokenSprite;      // Sprite del hueso roto
-    public float destroyTime = 1f;   // Tiempo en segundos antes de desaparecer
+
+    public float destroyTime = 1f;   // Tiempo antes de desaparecer
+    public float respawnTime = 3f;   // Tiempo para reaparecer
 
     private SpriteRenderer sr;
     private Collider2D col;
@@ -16,6 +19,8 @@ public class HuesoRoto : MonoBehaviour
     {
         sr = GetComponent<SpriteRenderer>();
         col = GetComponent<Collider2D>();
+
+        ResetHueso();
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -24,26 +29,36 @@ public class HuesoRoto : MonoBehaviour
 
         if (!isBroken)
         {
-            // Cambiar el sprite a roto
+            isBroken = true;
+
+            // Cambiar sprite a roto
             if (brokenSprite != null)
                 sr.sprite = brokenSprite;
 
-            isBroken = true;
-
-            // Iniciar la “desaparición” después de destroyTime segundos
-            Invoke("Disappear", destroyTime);
+            Invoke(nameof(Disappear), destroyTime);
         }
     }
 
     void Disappear()
     {
-        // Desaparece visualmente
-        if (sr != null) sr.enabled = false;
+        // Desaparece
+        sr.enabled = false;
+        col.enabled = false;
 
-        // Desactivar collider para que ya no se pueda pisar
-        if (col != null) col.enabled = false;
+        // Programar reaparecer
+        Invoke(nameof(Respawn), respawnTime);
+    }
 
-        // Opcional: destruir el objeto completamente
-        // Destroy(gameObject);
+    void Respawn()
+    {
+        ResetHueso();
+    }
+
+    void ResetHueso()
+    {
+        isBroken = false;
+        sr.sprite = normalSprite;
+        sr.enabled = true;
+        col.enabled = true;
     }
 }
