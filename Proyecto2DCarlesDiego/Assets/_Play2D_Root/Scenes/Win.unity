@@ -536,7 +536,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: f83d05bf964eacc4ba48d176f7411504, type: 3}
+  m_Resource: {fileID: 8300000, guid: 6c2e863dbbb210b44afec1a8515d2d07, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -984,7 +984,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: GAME OVER
+  m_text: You Win
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 699f4f115e79e50418c8cd1c2b5b8aa5, type: 2}
   m_sharedMaterial: {fileID: -3714129309246503380, guid: 699f4f115e79e50418c8cd1c2b5b8aa5, type: 2}
@@ -993,8 +993,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280161993
-  m_fontColor: {r: 0.7882353, g: 0.086274505, b: 0.117460795, a: 1}
+    rgba: 4279683365
+  m_fontColor: {r: 0.14627676, g: 0.7882353, b: 0.086274505, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
