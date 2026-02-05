@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public float speed = 6;
     public float jumpForce = 7f;
     public bool isGrounded;
+    public Animator animator;
     [SerializeField] float groundCheckRadious = 0.2f;
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask groundLayer;
@@ -29,6 +30,8 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadious, groundLayer);
+        animator.SetBool("isgrounded", isGrounded);
+        animator.SetBool("isjump", !isGrounded);
     }
 
     private void FixedUpdate()
@@ -44,6 +47,8 @@ public class PlayerController : MonoBehaviour
     void Jump()
     {
         playerRb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
+        animator.SetBool("isjump", true);
+
     }
 
     #region Input Methods
