@@ -372,6 +372,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &549651755
 GameObject:
   m_ObjectHideFlags: 0
@@ -501,6 +502,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of d4b99a2 (Cambiooooos)
 --- !u!1 &653475277
 GameObject:
   m_ObjectHideFlags: 0
@@ -1263,4 +1266,3 @@ SceneRoots:
   - {fileID: 1018703456}
   - {fileID: 653475280}
   - {fileID: 480805280}
-  - {fileID: 549651757}
