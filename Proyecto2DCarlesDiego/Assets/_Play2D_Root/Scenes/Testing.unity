@@ -7620,6 +7620,7 @@ MonoBehaviour:
   speed: 4
   jumpForce: 6
   isGrounded: 0
+  animator: {fileID: 1122405188}
   groundCheckRadious: 0.2
   groundCheck: {fileID: 17395819}
   groundLayer:
@@ -13836,7 +13837,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1193632322114922492, guid: 15c6ad39911a8d841888bf9417bcf61a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 48.3
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 1193632322114922492, guid: 15c6ad39911a8d841888bf9417bcf61a, type: 3}
       propertyPath: m_LocalPosition.y
