@@ -23,7 +23,7 @@ public class KillZoneFollower : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             // Aquí puedes reiniciar la escena o llamar a tu función de muerte
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("GameOver");
         }
     }
 }
