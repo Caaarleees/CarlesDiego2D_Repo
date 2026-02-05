@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7960241628530733234}
   - component: {fileID: 5768518144006483431}
   - component: {fileID: 679741493513804944}
+  - component: {fileID: 5614968310441463810}
   m_Layer: 3
   m_Name: RocaGris
   m_TagString: Ground
@@ -173,3 +174,15 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!114 &5614968310441463810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4201976316897116888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63849555be20e804098f2356e565085d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlatformPoint

@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 5969392699290425023}
   - component: {fileID: 7890539544559441826}
   - component: {fileID: 126679773827387900}
+  - component: {fileID: 6714485543045500654}
+  - component: {fileID: 8641668515606083416}
   m_Layer: 3
   m_Name: Roca
   m_TagString: Ground
@@ -157,3 +159,31 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!114 &6714485543045500654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6697452425871333533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f72bb99b537f75418dd414a52b70c36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlataformaDesaparece
+  timeToDisappear: 3
+  disappearAfterExit: 2
+  shakeDuration: 0.6
+  shakeAmount: 0.06
+--- !u!114 &8641668515606083416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6697452425871333533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63849555be20e804098f2356e565085d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlatformPoint
