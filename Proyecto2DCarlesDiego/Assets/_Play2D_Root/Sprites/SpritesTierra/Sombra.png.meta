@@ -1,13 +1,16 @@
 fileFormatVersion: 2
-guid: c68adf9f60dfcdb4a9996320a1e5f667
+guid: 258f2f2568eef54499713b4763de3411
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1854791399050056572
-    second: paralax_0
+      213: -114595351847970599
+    second: Sombra_0
   - first:
-      213: -365849108472864053
-    second: paralax_1
+      213: 5675701692457939369
+    second: Sombra_1
+  - first:
+      213: 1323333055030079712
+    second: Sombra_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -87,32 +90,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,7 +103,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -155,13 +132,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: paralax_0
+      name: Sombra_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 129
-        height: 1844
+        y: 147
+        width: 7
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +147,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48ceb27bc057246e0800000000000000
-      internalID: -1854791399050056572
+      spriteID: 9d8d0387220e86ef0800000000000000
+      internalID: -114595351847970599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paralax_1
+      name: Sombra_1
       rect:
         serializedVersion: 2
-        x: 948
-        y: 0
-        width: 132
-        height: 1844
+        x: 0
+        y: 19
+        width: 10
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,8 +169,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc2e4189c2e3ceaf0800000000000000
-      internalID: -365849108472864053
+      spriteID: 9a1f90e3e9424ce40800000000000000
+      internalID: 5675701692457939369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sombra_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 928
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0b998f66c6d5210800000000000000
+      internalID: 1323333055030079712
       vertices: []
       indices: 
       edges: []
@@ -212,8 +211,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      paralax_0: -1854791399050056572
-      paralax_1: -365849108472864053
+      Sombra_0: -114595351847970599
+      Sombra_1: 5675701692457939369
+      Sombra_2: 1323333055030079712
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
