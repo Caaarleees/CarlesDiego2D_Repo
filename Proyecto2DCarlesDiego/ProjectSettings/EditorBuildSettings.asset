@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Play2D_Root/Scenes/Menu.unity
     guid: 2eef55416af109d4cadf2371c80b8f4e
   - enabled: 1
