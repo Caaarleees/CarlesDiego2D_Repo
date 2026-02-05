@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5545175930557394398}
   - component: {fileID: 178189127796264542}
   - component: {fileID: 6966081600886526246}
+  - component: {fileID: 7157580569695043117}
   m_Layer: 3
   m_Name: RocaRoja
   m_TagString: Ground
@@ -173,3 +174,15 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!114 &7157580569695043117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8899189703655783104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63849555be20e804098f2356e565085d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlatformPoint
