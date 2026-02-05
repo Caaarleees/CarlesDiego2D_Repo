@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadious, groundLayer);
         animator.SetBool("isgrounded", isGrounded);
-        animator.SetFloat("yVelocity", playerRb.linearVelocity.y);
+        animator.SetBool("isjump", !isGrounded);
     }
 
     private void FixedUpdate()
@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
     void Jump()
     {
         playerRb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
-        animator.SetTrigger("jump");
+        animator.SetBool("isjump", true);
 
     }
 

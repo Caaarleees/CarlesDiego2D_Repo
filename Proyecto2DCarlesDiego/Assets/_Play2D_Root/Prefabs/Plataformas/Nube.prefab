@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 411396789619770500}
   - component: {fileID: 1182127168322333074}
   - component: {fileID: 5959882766763499258}
-  - component: {fileID: 8877981893867633599}
-  - component: {fileID: 9214325286917324009}
   m_Layer: 3
   m_Name: Nube
   m_TagString: Ground
@@ -159,31 +157,3 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
---- !u!114 &8877981893867633599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3569273558748836272}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f72bb99b537f75418dd414a52b70c36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlataformaDesaparece
-  timeToDisappear: 5
-  disappearAfterExit: 6
-  shakeDuration: 0
-  shakeAmount: 0
---- !u!114 &9214325286917324009
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3569273558748836272}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63849555be20e804098f2356e565085d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlatformPoint

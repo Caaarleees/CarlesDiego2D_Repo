@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 5292771865606985992}
   - component: {fileID: 2832787195504738564}
   - component: {fileID: 2020018372281374331}
-  - component: {fileID: 3141970028097179866}
   m_Layer: 3
   m_Name: Hueso
   m_TagString: Ground
@@ -109,6 +108,7 @@ MonoBehaviour:
   normalSprite: {fileID: 5503991915962570086, guid: ab95bb656a5e20a4ab79a3e28b23c38c, type: 3}
   brokenSprite: {fileID: 532854001124784855, guid: 354aef3252666de41a928036dabcde0a, type: 3}
   destroyTime: 0.5
+  respawnTime: 4
 --- !u!61 &2832787195504738564
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -174,15 +174,3 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
---- !u!114 &3141970028097179866
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5227977724690858070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63849555be20e804098f2356e565085d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlatformPoint
